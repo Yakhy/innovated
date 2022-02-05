@@ -1,0 +1,191 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Lato-Regular.woff2) format("woff2"), url(../fonts/Lato-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/Lato-Regular.woff) format("woff2"), url(../fonts/Lato-Regular.woff) format("woff");
+}
+
+.title {
+  font-family: 'Lato';
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/Poppins-Medium.woff2) format("woff2"), url(../fonts/Poppins-Medium.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/Poppins-SemiBold.woff2) format("woff2"), url(../fonts/Poppins-SemiBold.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Poppins-Regular.woff2) format("woff2"), url(../fonts/Poppins-Regular.woff) format("woff");
+}
+
+body {
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/Poppins-Bold.woff2) format("woff2"), url(../fonts/Poppins-Bold.woff) format("woff");
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1, h2, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: #3988FF;
+  color: #fff;
+  display: block;
+  border: 2px solid #3988FF;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-outline {
+  background-color: #fff;
+  color: #3988FF;
+  border: 2px solid #3988FF;
+  border-radius: 5px;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.btn-outline:hover {
+  background-color: #3988FF;
+  color: #fff;
+}
+
+.page-section {
+  padding-top: 160px;
+}
+
+.title {
+  color: #050C26;
+  text-align: center;
+  font-size: 43px;
+  line-height: 130%;
+}
+
+.text {
+  text-align: center;
+  line-height: 160%;
+  width: 820px;
+  height: 58px;
+  margin: 0 auto;
+  color: #575859;
+}
+
+.uptitle {
+  font-size: 20px;
+  line-height: 160%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #575859;
+  font-weight: normal;
+}
+
+.switch {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  border: 1px solid #1B45DA;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.switch-item {
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.switch .btn {
+  padding: 10px 20px;
+}
+
+.switch input {
+  position: absolute;
+  z-index: -2;
+  opacity: 0;
+}
+/*# sourceMappingURL=global.css.map */

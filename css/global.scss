@@ -1,0 +1,136 @@
+@import 'fonts';
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit; 
+ }
+
+$darkBlue: #050C26;
+$Blue: #3988FF;
+$grey: #575859;
+
+
+$p-red: #E41A1A; 
+$p-orange: #DA5A12;
+$p-green: #5BBB10;
+$p-blue: #15C1CC;
+
+%bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center center;
+}
+%center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    font-size: 18px;
+    line-height: 28px;
+    @extend %poppins;  
+ }
+
+ a{
+     text-decoration: none;
+     color: inherit;
+ }
+ button{
+     cursor: pointer;
+ }
+
+ h1,h2,h4,h5,h6, p{
+     padding: 0;
+     margin: 0;
+   
+}
+ul{
+    list-style: none;
+}
+ .container{
+     max-width: 1200px;
+     margin: 0 auto;
+ }
+
+ .btn{
+     background-color: $Blue;
+     color: #fff;
+     display: block;
+     border: 2px solid $Blue;
+     transition: background-color 0.2s;
+     &:hover{
+   
+
+      opacity: 0.8;
+     }
+  &-outline{
+      background-color:#fff ;
+      color: $Blue;
+      border: 2px solid $Blue;
+      border-radius: 5px;
+      transition: opacity 0.2s;
+      &:hover{
+          background-color: $Blue ;
+          color: #fff;
+      }
+}
+ 
+   }
+   .page-section{
+       padding-top: 160px;
+   }
+   .title{
+      @extend %LatoBold;
+      color: $darkBlue;
+      text-align: center;
+      font-size: 43px;
+      line-height: 130%;
+
+   }
+   .text{
+       text-align: center;
+       line-height: 160%;
+       width: 820px;
+       height: 58px;
+       margin: 0 auto;
+       color: $grey;
+   }
+   .uptitle{
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: $grey;
+    font-weight: normal;
+   }
+   .switch{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       align-items: center;
+       gap: 20px;
+       width: fit-content;
+       margin: auto;
+       border: 1px solid #1B45DA;
+       box-sizing: border-box;
+       border-radius: 5px;
+       padding: 10px 20px;
+       
+       &-item{
+        border-radius: 10px;
+        cursor: pointer;
+        position: relative; 
+}
+       .btn{
+           padding: 10px 20px;
+       }
+       input{
+           position: absolute;
+           z-index: -2;
+           opacity: 0 ;
+       }
+   }

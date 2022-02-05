@@ -1,0 +1,92 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/Lato-Regular.woff2) format('woff2'),
+         url(../fonts/Lato-Regular.woff) format('woff');
+    
+  }
+  %Lato{
+      font-family: 'Lato';
+      font-weight: 400;  
+  }
+  
+ 
+
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap; 
+    src: url(../fonts/Lato-Regular.woff) format('woff2'),
+         url(../fonts/Lato-Regular.woff) format('woff');
+   
+  }
+
+  %LatoBold{
+    font-family: 'Lato';
+    font-weight: 700;  
+}
+
+  @font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url(../fonts/Poppins-Medium.woff2) format('woff2'),
+         url(../fonts/Poppins-Medium.woff) format('woff');
+    
+  }
+  %poppinsMedium{
+    font-family: 'Poppins';
+    font-weight: 500;  
+}
+
+  @font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+    src: url(../fonts/Poppins-SemiBold.woff2) format('woff2'),
+         url(../fonts/Poppins-SemiBold.woff) format('woff');
+    
+  }
+
+  %poppinsSemiBold{
+    font-family: 'Poppins';
+    font-weight: 600;  
+}
+  
+
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/Poppins-Regular.woff2) format('woff2'),
+         url(../fonts/Poppins-Regular.woff) format('woff');
+    
+  }
+  %poppins{
+    font-family: 'Poppins';
+    font-weight: 400;  
+}
+   
+ 
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/Poppins-Bold.woff2) format('woff2'),
+        url(../fonts/Poppins-Bold.woff) format('woff')
+  
+  } 
+  %poppinsBold{
+    font-family: 'Poppins';
+    font-weight: 700;  
+}
+
+
